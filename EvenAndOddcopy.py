@@ -643,4 +643,5 @@ with tab3:
                 <p>Combine art and electronics by creating a circuit on paper. Use copper tape, coin cell batteries, and LEDs to make a light-up greeting card or a small illuminated artwork.</p>
                 <a href="hhttps://www.exploratorium.edu/tinkering/projects/paper-circuits" target="_blank" rel="noopener noreferrer">Tutorial &rarr;</a>
             </div>
+
         """, unsafe_allow_html=True)
