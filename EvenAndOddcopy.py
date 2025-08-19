@@ -689,7 +689,7 @@ with st.sidebar:
 st.markdown(f"""
 <div style="text-align: center; padding: 20px 0;">
     <h1 style="font-size: 48px; margin: 0; background: linear-gradient(45deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent;">
-        {st.session_state.header_emoji} Even or Odd Fun Hub
+        {st.session_state.header_emoji}  Fun Hub
     </h1>
     <p style="font-size: 20px; color: #666; margin: 10px 0 0 0;">
         Welcome to your interactive learning playground! 🎉
@@ -1137,6 +1137,7 @@ with tab3:
                 st.session_state.answered = False
 
         st.write(f"**Score:** {st.session_state.flag_score}")
+
 
 
 
