@@ -26,7 +26,7 @@ if "scrambled_word" not in st.session_state:
 if "revealed_answer" not in st.session_state:
     st.session_state.revealed_answer = ""
 # --- Page Setup ---
-st.set_page_config(page_title="Even or Odd Fun Hub", page_icon="🎯", layout="centered")
+st.set_page_config(page_title="Fun Hub", page_icon="🎯", layout="centered")
 
 # --- Configuration ---
 class Config:
@@ -1137,5 +1137,6 @@ with tab3:
                 st.session_state.answered = False
 
         st.write(f"**Score:** {st.session_state.flag_score}")
+
 
 
